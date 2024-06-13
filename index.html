@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecko Mining</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section balance">
+            <h2>Hi, Tecko</h2>
+            <div class="balance-display">
+                <span>Your balance</span>
+                <span id="balance">0</span>
+            </div>
+            <button id="startMiningButton" class="button">Start mining</button>
+        </div>
+        <div class="section tasks">
+            <h2>Tasks</h2>
+            <div class="task">
+                <span>Join our Twitter</span>
+                <button class="perform-button button">Perform</button>
+            </div>
+            <div class="task">
+                <span>Join our Telegram</span>
+                <button class="perform-button button">Perform</button>
+            </div>
+        </div>
+        <div class="section referrals">
+            <h2>Invite</h2>
+            <div class="referral-display">
+                <span>Earned from referrals</span>
+                <span id="referralBalance">0</span>
+            </div>
+            <button id="inviteButton" class="button">Get Invite Link</button>
+            <div id="referralLink" class="referral-link"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
